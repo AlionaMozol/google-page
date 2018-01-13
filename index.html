@@ -20,32 +20,47 @@
 	</header>
 
 	<main>
-
 		<div class="main-logo">
 			<img class="google-logo" src="images/google_logo.png" alt="Google">
 		</div>
-
-		<form class="main-search-form">
-			<div class="main-search">
+		<form class="main-search-form" action="https://www.google.by/search" method="get">
+			<center class="main-search">
 				<div class="main-search-line">
 						<div class="search-input">
-							<input class="main-search-input">
+							<input class="main-search-input" type="text" name="q">
 						</div>
 						<img class="btn-microfone" src="images/microfone_logo.jpg" title="Search by voice">
 				</div>
-
-				<div class="buttons">
-					<button class="btn-search"></button>
-					<button class="btn-lucky"></button>
-				</div>
-
-			</div>
+				<center class="main-buttons">
+					<button class="main-btn" type="submit">Google Search</button>
+					<input type="button" value="I'm Feeling Lucky" class="main-btn" onclick="location.href='https://www.google.com/doodles'">
+				</center>
+				<center class="main-lang">
+					<p class="main-lang-text">Google offered in: </p>
+					<a href="https://www.google.by/setprefs?sig=0_JBUeV9qE43EMOoT27LrOal0GWzI%3D&hl=be&source=homepage&sa=X&ved=0ahUKEwiJ8p3L6tPYAhUCZlAKHZIECuUQ2ZgBCAg" class="main-lang-link">Беларуская</a>
+					<a href="https://www.google.by/setprefs?sig=0_JBUeV9qE43EMOoT27LrOal0GWzI%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiJ8p3L6tPYAhUCZlAKHZIECuUQ2ZgBCAk" class="main-lang-link">русский</a>
+				</center>
+			</center>
 		</form>
-
 	</main>
-	<footer>
-		<div class=""></div>
-		<div></div>
+	<footer class="footer">
+		<div class="footer-line">
+			<a class="footer-country">Belarus</a>
+		</div>
+		<div class="footer-line">
+			<div class="footer-left-menu">
+		        <a class="footer-menu-item" href="https://www.google.by/intl/ru_by/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+		        <a class="footer-menu-item" href="https://www.google.by/intl/ru/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+		        <a class="footer-menu-item" href="https://www.google.by/intl/ru_by/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+    		</div>
+		    <div class="footer-right-menu">
+		        <a class="footer-menu-item" href="https://www.google.com/intl/ru_by/policies/privacy/?fg=1">Privacy</a>
+		        <a class="footer-menu-item" href="https://www.google.by/intl/ru_by/policies/terms/?fg=1">Terms</a>
+		        <a class="footer-menu-item">Settings</a>
+		        <a class="footer-menu-item" href="https://www.google.com">Use Google.com</a>
+		    </div>
+
+		</div>
 	</footer>
 </body>
 
